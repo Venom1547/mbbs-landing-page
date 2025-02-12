@@ -44,3 +44,33 @@
 ```sh
 git clone https://github.com/YOUR-USERNAME/study-mbbs-landing.git
 cd study-mbbs-landing
+🔹 Step 2: Open in Browser
+Just open the index.html file in any browser.
+
+🌍 How to Deploy on Vercel
+🔹 Step 1: Install Vercel CLI
+sh
+Copy
+Edit
+npm install -g vercel
+🔹 Step 2: Deploy
+sh
+Copy
+Edit
+vercel
+✅ Your site is now live!
+
+📊 Google Analytics & Facebook Pixel Setup
+🔹 Google Analytics
+Replace G-XXXXXXXXXX in index.html <head> with your Google Analytics Measurement ID.
+🔹 Facebook Pixel
+Replace XXXXXXXXXX in index.html <head> with your Facebook Pixel ID.
+📬 Form Submission Handling
+The form submits data to Google Forms.
+Make sure you update the entry IDs in script.js to match your Google Form fields.
+
+📜 License
+This project is free to use and open-source.
+
+📞 Contact
+For any queries or support, feel free to open an issue or reach out.
