@@ -129,6 +129,12 @@
                 &entry.839337160=${country}`;
         
             window.open(googleFormURL, "_blank"); // Opens Google Form in a new tab
+
+        gtag('event', 'form_submission', {
+        'event_category': 'Lead Generation',
+        'event_label': name,
+        'value': 1
+    });
         });
         </script>
 </body>
