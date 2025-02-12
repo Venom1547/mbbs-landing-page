@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Study MBBS Abroad - Find the best medical programs in Russia, Uzbekistan, Kazakhstan, and more. Apply now!">
+    <title>Study MBBS Abroad</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+<body class="bg-gray-100">
+
+    <!-- Hero Section with Larger Height & Font -->
+    <section class="bg-blue-600 text-white text-center p-20 h-[600px] flex flex-col justify-center">
+        <h1 class="text-6xl font-extrabold">Study MBBS Abroad</h1>
+        <p class="mt-6 text-2xl">Your Gateway to a World-Class Medical Career</p>
+        <a href="#apply" class="bg-white text-blue-600 px-10 py-4 mt-8 inline-block font-bold text-xl w-[220px] mx-auto rounded-lg shadow-lg hover:bg-gray-200 transition">
+            Apply Now
+        </a>
+    </section>
+
+    <!-- Why Study MBBS Abroad (Expanded Content) -->
+    <section class="p-16">
+        <h2 class="text-4xl font-bold text-center">Why Choose MBBS Abroad?</h2>
+        <p class="text-lg text-center mt-4 max-w-3xl mx-auto">Studying MBBS abroad offers affordable tuition, globally recognized degrees, high-quality education, and better career opportunities. Gain international exposure and practical experience in top medical institutions.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 max-w-5xl mx-auto">
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="text-2xl font-semibold">🌍 Global Recognition</h3>
+                <p class="text-lg mt-2">Degrees from foreign medical universities are recognized by WHO, MCI, and other international bodies.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="text-2xl font-semibold">💰 Affordable Tuition</h3>
+                <p class="text-lg mt-2">Tuition fees in many foreign universities are much lower compared to private medical colleges in India.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="text-2xl font-semibold">🏥 Advanced Infrastructure</h3>
+                <p class="text-lg mt-2">Modern laboratories, high-end medical technology, and extensive hospital training.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="text-2xl font-semibold">🎓 No Entrance Exams</h3>
+                <p class="text-lg mt-2">Many universities don’t require NEET or other entrance exams, making it easier to get admission.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Countries (Expanded with Flags) -->
+    <section class="p-16 bg-white">
+        <h2 class="text-4xl font-bold text-center">Top Countries for MBBS</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 text-center text-xl font-semibold">
+            <div class="p-6 bg-gray-200 rounded shadow">🇷🇺 Russia</div>
+            <div class="p-6 bg-gray-200 rounded shadow">🇺🇿 Uzbekistan</div>
+            <div class="p-6 bg-gray-200 rounded shadow">🇰🇿 Kazakhstan</div>
+            <div class="p-6 bg-gray-200 rounded shadow">🇵🇭 Philippines</div>
+            <div class="p-6 bg-gray-200 rounded shadow">🇬🇪 Georgia</div>
+            <div class="p-6 bg-gray-200 rounded shadow">🇪🇬 Egypt</div>
+        </div>
+    </section>
+
+    <!-- Admission Process (Added Steps with Icons) -->
+    <section class="p-16">
+        <h2 class="text-4xl font-bold text-center">Admission Process & Eligibility</h2>
+        <ol class="mt-8 text-xl font-medium space-y-4 max-w-3xl mx-auto">
+            <li>✅ **Step 1:** Submit Online Application</li>
+            <li>✅ **Step 2:** Provide Required Documents (Passport, Academic Records, etc.)</li>
+            <li>✅ **Step 3:** Receive Admission Letter</li>
+            <li>✅ **Step 4:** Apply for a Student Visa</li>
+            <li>✅ **Step 5:** Travel & Begin Your MBBS Journey!</li>
+        </ol>
+    </section>
+
+    <!-- Apply Now Section (Larger Form) -->
+    <section id="apply" class="p-16 bg-gray-200 flex justify-center">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md"> <!-- Reduced Width -->
+            <h2 class="text-3xl font-bold text-center">Apply Now</h2>
+            <p class="text-lg text-center mt-2">Fill out the form below and start your MBBS abroad journey today!</p>
+            
+            <form id="applyForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" 
+                       class="w-full p-3 border rounded mt-3 text-lg" required>
+    
+                <input type="email" id="email" name="email" placeholder="Your Email" 
+                       class="w-full p-3 border rounded mt-3 text-lg" required>
+    
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone" 
+                       class="w-full p-3 border rounded mt-3 text-lg" required>
+    
+                <select id="country" name="country" class="w-full p-3 border rounded mt-3 text-lg">
+                    <option value="">Select Country Preference</option>
+                    <option>Russia</option>
+                    <option>Uzbekistan</option>
+                    <option>Kazakhstan</option>
+                    <option>Philippines</option>
+                    <option>Georgia</option>
+                    <option>Egypt</option>
+                </select>
+    
+                <button type="submit" 
+                        class="w-full bg-blue-600 text-white p-3 mt-6 rounded-lg text-lg font-bold hover:bg-blue-700 transition">
+                    Submit Application
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("applyForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            let name = encodeURIComponent(document.getElementById("name").value);
+            let email = encodeURIComponent(document.getElementById("email").value);
+            let phone = encodeURIComponent(document.getElementById("phone").value);
+            let country = encodeURIComponent(document.getElementById("country").value);
+        
+            // ✅ Replace with the correct Google Form Pre-Fill Link & Field IDs
+            let googleFormURL = `https://docs.google.com/forms/d/e/1FAIpQLSffrxJsg2AbGKtvoeb3BsPMBa3REum3THhia3vuDmWRmZphaw/viewform?usp=pp_url
+                &entry.2005620554=${name}
+                &entry.1045781291=${email}
+                &entry.1166974658=${phone}
+                &entry.839337160=${country}`;
+        
+            window.open(googleFormURL, "_blank"); // Opens Google Form in a new tab
+        });
+        </script>
+</body>
+</html>
+
