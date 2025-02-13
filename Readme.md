@@ -5,7 +5,7 @@
 ---
 
 ## 📌 Live Demo  
-🔗 [View the Deployed Website](https://study-mbbs.vercel.app)  
+🔗 [View the Deployed Website](https://mbbs-landing-page.vercel.app/)  
 
 ---
 
@@ -41,31 +41,28 @@
 ## 🚀 How to Run Locally  
 
 ### 🔹 Step 1: Clone the Repository  
-```sh
-git clone https://github.com/YOUR-USERNAME/study-mbbs-landing.git
+git clone https://github.com/Venom1547/mbbs-landing-page.git
 cd study-mbbs-landing
-🔹 Step 2: Open in Browser
+
+###🔹 Step 2: Open in Browser
 Just open the index.html file in any browser.
 
-🌍 How to Deploy on Vercel
-🔹 Step 1: Install Vercel CLI
-sh
-Copy
-Edit
+##🌍 How to Deploy on Vercel
+###🔹 Step 1: Install Vercel CLI
 npm install -g vercel
-🔹 Step 2: Deploy
-sh
-Copy
-Edit
-vercel
-✅ Your site is now live!
 
-📊 Google Analytics & Facebook Pixel Setup
-🔹 Google Analytics
+###🔹 Step 2: Deploy
+vercel
+
+##✅ Your site is now live!
+
+##📊 Google Analytics & Facebook Pixel Setup
+###🔹 Google Analytics
 Replace G-XXXXXXXXXX in index.html <head> with your Google Analytics Measurement ID.
-🔹 Facebook Pixel
+###🔹 Facebook Pixel
 Replace XXXXXXXXXX in index.html <head> with your Facebook Pixel ID.
-📬 Form Submission Handling
+
+##📬 Form Submission Handling
 The form submits data to Google Forms.
 Make sure you update the entry IDs in script.js to match your Google Form fields.
 
