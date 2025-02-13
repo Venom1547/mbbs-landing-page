@@ -11,16 +11,21 @@ document.getElementById("applyForm").addEventListener("submit", function(event) 
     let phone = document.querySelector('input[name="phone"]').value.trim();
     
     let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-    let phonePattern = /^[0-9]{10,}$/; // At least 10 digits
-    
+    let phonePattern = /^[0-9]{10}$/; // Exactly 10 digits
+
+    let errorMessage = ""; // Store error message
+
     if (name.length < 3) {
-        alert("Name must be at least 3 characters long.");
-        event.preventDefault();
+        errorMessage = "Name must be at least 3 characters long.";
     } else if (!email.match(emailPattern)) {
-        alert("Please enter a valid email.");
-        event.preventDefault();
+        errorMessage = "Please enter a valid email.";
     } else if (!phone.match(phonePattern)) {
-        alert("Enter a valid phone number with at least 10 digits.");
-        event.preventDefault();
+        errorMessage = "Enter a valid phone number with exactly 10 digits.";
+    }
+
+    if (errorMessage !== "") {
+        alert(errorMessage);
+        event.preventDefault(); // Prevent form submission
+        return;
     }
 });
