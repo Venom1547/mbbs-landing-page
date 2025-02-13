@@ -17,6 +17,25 @@
 
   gtag('config', 'G-FZEEZNFZHN');
 </script>
+    
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2271037383268310');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2271037383268310&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    
 <body class="bg-gray-100">
 
     <!-- Hero Section with Larger Height & Font -->
@@ -28,7 +47,7 @@
         </a>
     </section>
 
-    <!-- Why Study MBBS Abroad (Expanded Content) -->
+    <!-- Why Study MBBS Abroad  -->
     <section class="p-16">
         <h2 class="text-4xl font-bold text-center">Why Choose MBBS Abroad?</h2>
         <p class="text-lg text-center mt-4 max-w-3xl mx-auto">Studying MBBS abroad offers affordable tuition, globally recognized degrees, high-quality education, and better career opportunities. Gain international exposure and practical experience in top medical institutions.</p>
@@ -52,7 +71,7 @@
         </div>
     </section>
 
-    <!-- Top Countries (Expanded with Flags) -->
+    <!-- Top Countries -->
     <section class="p-16 bg-white">
         <h2 class="text-4xl font-bold text-center">Top Countries for MBBS</h2>
         <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-8 text-center text-xl font-semibold">
@@ -65,7 +84,7 @@
         </div>
     </section>
 
-    <!-- Admission Process (Added Steps with Icons) -->
+    <!-- Admission Process -->
     <section class="p-16">
         <h2 class="text-4xl font-bold text-center">Admission Process & Eligibility</h2>
         <ol class="mt-8 text-xl font-medium space-y-4 max-w-3xl mx-auto">
@@ -77,9 +96,9 @@
         </ol>
     </section>
 
-    <!-- Apply Now Section (Larger Form) -->
+    <!-- Apply Now Section -->
     <section id="apply" class="p-16 bg-gray-200 flex justify-center">
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md"> <!-- Reduced Width -->
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md"> 
             <h2 class="text-3xl font-bold text-center">Apply Now</h2>
             <p class="text-lg text-center mt-2">Fill out the form below and start your MBBS abroad journey today!</p>
             
@@ -121,7 +140,7 @@
             let phone = encodeURIComponent(document.getElementById("phone").value);
             let country = encodeURIComponent(document.getElementById("country").value);
         
-            // ✅ Replace with the correct Google Form Pre-Fill Link & Field IDs
+          
             let googleFormURL = `https://docs.google.com/forms/d/e/1FAIpQLSffrxJsg2AbGKtvoeb3BsPMBa3REum3THhia3vuDmWRmZphaw/viewform?usp=pp_url
                 &entry.2005620554=${name}
                 &entry.1045781291=${email}
