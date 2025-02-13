@@ -131,31 +131,7 @@ src="https://www.facebook.com/tr?id=2271037383268310&ev=PageView&noscript=1"
     </section>
 
     <script src="script.js"></script>
-    <script>
-        document.getElementById("applyForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            
-            let name = encodeURIComponent(document.getElementById("name").value);
-            let email = encodeURIComponent(document.getElementById("email").value);
-            let phone = encodeURIComponent(document.getElementById("phone").value);
-            let country = encodeURIComponent(document.getElementById("country").value);
-        
-          
-            let googleFormURL = `https://docs.google.com/forms/d/e/1FAIpQLSffrxJsg2AbGKtvoeb3BsPMBa3REum3THhia3vuDmWRmZphaw/viewform?usp=pp_url
-                &entry.2005620554=${name}
-                &entry.1045781291=${email}
-                &entry.1166974658=${phone}
-                &entry.839337160=${country}`;
-        
-            window.open(googleFormURL, "_blank"); // Opens Google Form in a new tab
-
-        gtag('event', 'form_submission', {
-        'event_category': 'Lead Generation',
-        'event_label': name,
-        'value': 1
-    });
-        });
-        </script>
+    
 </body>
 </html>
 
