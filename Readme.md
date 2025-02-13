@@ -40,18 +40,18 @@
 
 ## 🚀 How to Run Locally  
 
-### 🔹 Step 1: Clone the Repository  
+** 🔹 Step 1: Clone the Repository  
 git clone https://github.com/Venom1547/mbbs-landing-page.git
 cd study-mbbs-landing
 
-###🔹 Step 2: Open in Browser
+**🔹 Step 2: Open in Browser
 Just open the index.html file in any browser.
 
 ##🌍 How to Deploy on Vercel
-###🔹 Step 1: Install Vercel CLI
+**🔹 Step 1: Install Vercel CLI
 npm install -g vercel
 
-###🔹 Step 2: Deploy
+**🔹 Step 2: Deploy
 vercel
 
 ##✅ Your site is now live!
